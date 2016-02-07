@@ -25,7 +25,7 @@ public class Arithmetic {
         double totalTax = taxPants+taxShirts+taxBelts; //calculates total amount of tax
         double totalCost = totalTax+totalPrice; //calcualtes total cost
         //displays prices and taxes for individual categories
-        System.out.printf("Total price of pants: $%.2f\n",totalPantsPrice);
+        System.out.printf("Total price of pants: $%.2f\n",totalPantsPrice); //Prints desired value while formating the value to display only two decimal points. A new line of code is then added
         System.out.printf("Tax for pants: $%.2f\n\n",taxPants);
         System.out.printf("Total price of shirts: $%.2f\n",totalShirtsPrice);
         System.out.printf("Tax for shirts: $%.2f\n\n",taxShirts);
