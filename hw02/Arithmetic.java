@@ -2,7 +2,8 @@
 //CSE002
 //hw2-Arithmetic
 
-//
+//This code inputs the price and quantity bought of individual types of clothes and outputs the amount of tax paid on each set of items 
+//individually and in total as well as the total price paid both excluding and including the total amount of tax
 
 public class Arithmetic {
     public static void main(String[] args) {
