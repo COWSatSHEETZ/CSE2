@@ -7,8 +7,7 @@
 public class CardGenerator {
     public static void main (String[] args) {
         int randNumb = (int) (Math.random()*52); //generates a random number from 0 to 51
-        int randNumbPlus = randNumb + 14; //adds 14 to the randomly generated number
-        int cardNumb = randNumbPlus%13; //takes the remainder of randNumbPlus divided by 13 to produce a number from 0 to 12 
+        int cardNumb = randNumb%13; //takes the remainder of the randomly generated number divided by 13 to produce a number from 0 to 12 
         String cardValue = ""; //initializes the variable 'cardValue' to be used in the following switch statement
         switch (cardNumb) { //recieves a value of 0 to 12
             case 0:
