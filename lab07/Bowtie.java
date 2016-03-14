@@ -73,7 +73,7 @@ public class Bowtie {
             System.out.println(); //Starts a new line in the terminal
         }
         
-        //----------------------------------------------------------------------
+        //-------------------------------------------------------------For Loops
         /*
         for (int i = 0; i <= nStars/2; i++){
             int numSpaces = i*2;
@@ -107,7 +107,7 @@ public class Bowtie {
         //--------------------------------------------------------Do While Loops
         /*
         while (true) {
-        
+        /*
         int i = 0;
         if (i <= nStars/2) {
             do {
@@ -175,6 +175,7 @@ public class Bowtie {
         }
         else {
         }
+        */
         }
         */
         //----------------------------------------------------------------------
