@@ -168,7 +168,7 @@ public class Bowtie {
                 System.out.println();
             } while (i >= 0);
         }
-        System.out.print("Would you like to continue? Type Y or y: ");
+        System.out.print("Would you like to continue? If so, type Y or y: ");
         String input = "";
         if ((input = sc.next()).equals("Y") || input.equals("y")) {
             System.exit(0);
