@@ -9,6 +9,8 @@ public class Bowtie {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in); //Declare the scanner
         
+        while (true) {
+        
         int nStars = 0; //Declare integer 'nStars' for user input
         System.out.println("Please enter an odd integer that is between 3 and 33:"); //Prompts user to input an integer between 3 and 33
         if (!sc.hasNextInt() || (nStars = sc.nextInt()) < 3 || nStars > 33 || nStars%2 != 1) { //Runs if the user input is not an integer or if it is not between 3 and 33. Also, user input is stored in variable 'nStars'
@@ -27,7 +29,7 @@ public class Bowtie {
         //int nStars = 9; //Declare integer 'nStars'
         
         //-----------------------------------------------------------While Loops
-        
+        /*
         int i = 0; //Declares integer 'i' for the while loop
         while (i <= nStars/2) { //Runs as long as 'i' is less than or equal to 'nStars' divided by 2
             int numSpaces = i*2; //Declares integer 'numSpaces' and sets it equal to 'i' times 2
@@ -72,7 +74,7 @@ public class Bowtie {
             i--; //Subtracts 1 from 'i'
             System.out.println(); //Starts a new line in the terminal
         }
-        
+        */
         //-------------------------------------------------------------For Loops
         /*
         for (int i = 0; i <= nStars/2; i++){
@@ -105,9 +107,7 @@ public class Bowtie {
         }
         */
         //--------------------------------------------------------Do While Loops
-        /*
-        while (true) {
-        /*
+        
         int i = 0;
         if (i <= nStars/2) {
             do {
@@ -171,13 +171,13 @@ public class Bowtie {
         System.out.print("Would you like to continue? If so, type Y or y: ");
         String input = "";
         if ((input = sc.next()).equals("Y") || input.equals("y")) {
-            System.exit(0);
         }
         else {
+            System.exit(0);
         }
-        */
+        
         }
-        */
+        
         //----------------------------------------------------------------------
         
     }
