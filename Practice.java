@@ -1,19 +1,23 @@
 import java.util.Scanner;
 public class Practice {
-    public static int[] linearSearch(int[] list, int target) {
-        for (int i = 0; i < list.length; i++) {
-            if (list[i] == target) {
-                int[] result = {1, i};
-                return result;
-            }
-        }
-        int[] result = {0, list.length};
-        return result;
-    }
     public static void main(String[] args){
-        int[] a = {6,7,5,4,9,5,6,2,4};
-        int b = 8;
-        int[] c = linearSearch(a,b);
-        System.out.println(c[0] + " " + c[1]);
+        int[] a = new int[] {1,2,3,4};
+        int[] b = new int[] {4,5,6,7,8,9};
+        //a[] = ;
+        //b[] =;
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+        System.out.println();
+        a = b;
+        a[0] = 20;
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+        System.out.println();
+        for (int i = 0; i < b.length; i++) {
+            System.out.print(b[i] + " ");
+        }
+        System.out.println();
     }
 }
